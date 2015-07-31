@@ -18,3 +18,13 @@ let template = `
   </div>
 `;
 ```
+
+You can also do string interpolation using ${expression} placeholders:
+
+```html
+let x = 5;
+let y = 10;
+let template = `
+  <div>The sum is <span>${ x + y }</span></div>
+`;
+```
